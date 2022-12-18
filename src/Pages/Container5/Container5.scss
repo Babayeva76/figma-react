@@ -1,0 +1,130 @@
+.container5 {
+  width: 1440px;
+  height: 390px;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+.mainpart5 {
+  width: 1110px;
+  height: 266px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pp5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 52px;
+  letter-spacing: -0.76px;
+  color: #18191f;
+  margin: 0;
+}
+.iddd {
+  width: 1110px;
+  height: 162px;
+  display: flex;
+  gap: 55px;
+  overflow: hidden;
+}
+.ipp {
+  width: 255px;
+  height: 162px;
+}
+.indication {
+  width: 231px;
+  height: 24px;
+  margin-top: 16px;
+}
+.pp6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: -0.43px;
+  color: #18191f;
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+.pp7 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.29px;
+  color: #18191f;
+  margin: 0;
+}
+.carusel {
+  display: flex;
+  justify-content: center;
+}
+.carousel-button{
+  width: 72px;
+            height: 30px;
+            background: #2e4fd7;
+            border-radius: 5px;
+            color: white;
+            border-width: 3px;
+}
+
+@media (min-width: 401px) {
+  .mobile-only {
+    display: none !important;
+  }
+}
+@media (max-width: 400px) {
+  .desktop-only {
+    display: none !important;
+  }
+  .container5 {
+      margin: 0;
+      width: 100%;
+      height: 485px;
+    }
+    .mainpart5 {
+      margin: 0;
+      align-items: center;
+      height: 400px;
+      width: 400px;
+    }
+    .pp5 {
+      font-size: 30px;
+      line-height: 43px;
+      margin: 0;
+      width: 313px;
+    }
+    .indication {
+      margin: 0;
+    }
+    .pp6 {
+      margin: 0;
+      font-size: 17px;
+      line-height: 20px;
+    }
+    .pp7 {
+      margin: 0;
+      font-size: 12px;
+      line-height: 26px;
+    }
+    .iddd {
+      margin: 0;
+      flex-direction: column;
+      width: 300px;
+      height: 357px;
+    }
+    .ipp {
+      margin: 0;
+    }
+    .circle {
+      margin: 0;
+    }
+  }

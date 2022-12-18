@@ -1,0 +1,164 @@
+.container1 {
+  width: 1440px;
+  height: 840px;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+.mainpart {
+  display: flex;
+  gap: 105px;
+  width: 1200px;
+  height: 549px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mainpart1 {
+  width: 635px;
+  height: 549px;
+}
+.hh1 {
+  width: 635px;
+  height: 216px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  letter-spacing: -1.16px;
+  text-transform: capitalize;
+  color: #191919;
+  margin: 0;
+}
+.pp1 {
+  width: 468px;
+  height: 90px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+  color: #1e1e1e;
+  margin-top: 30px;
+}
+.btnp1 {
+  height: 56px;
+  width: 469px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 42px;
+}
+.btn2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 198px;
+  height: 56px;
+  left: 0px;
+  top: 378px;
+  background: #2e4fd7;
+  border-radius: 1px;
+  color: white;
+}
+.p1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.29px;
+  color: #1e1e1e;
+  width: 250px;
+}
+.svgs {
+  display: flex;
+  justify-content: space-between;
+  width: 403.71px;
+  height: 31px;
+  margin-top: 84px;
+}
+.svg1 {
+  width: 104.85px;
+  height: 31px;
+}
+.svg4 {
+  width: 94.67px;
+  height: 31px;
+}
+.google {
+  width: 157.71px;
+  height: 31px;
+}
+.img1 {
+  width: 460px;
+  height: 548.81px;
+}
+.forimage {
+  width: 460px;
+  height: 548.81px;
+}
+@media (min-width: 401px) {
+  .mobile-only {
+    display: none !important;
+  }
+}
+@media (max-width: 400px) {
+  .desktop-only {
+    display: none !important;
+  }
+  .mainpart {
+    margin: 0;
+    width: 400px;
+    height: 330px;
+  }
+  .mainpart1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    width: 400px;
+    height: 330px;
+  }
+  .hh1 {
+    width: 300px;
+    font-size: 32px;
+    line-height: 41px;
+    height: 120px;
+    text-align: center;
+  }
+  .pp1 {
+    margin: 0;
+    font-size: 13px;
+    line-height: 15px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+  }
+  .btn2 {
+    margin: 0;
+    height: 28px;
+    width: 160px;
+  }
+  .p1 {
+    margin: 0;
+    margin: 0;
+    font-size: 12px;
+    line-height: 15px;
+    width: 160px;
+  }
+
+  .svgs {
+    margin: 0;
+    justify-content: center;
+  }
+  .btnp1 {
+    justify-content: center;
+    margin: 0;
+    gap: 15px;
+  }
+}

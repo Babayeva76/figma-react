@@ -1,0 +1,165 @@
+.container6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 660px;
+    background-color: #e7ebfc;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pp8 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: -0.94px;
+    color: #191919;
+    width: 920px;
+    height: 124px;
+    margin-top: 103px;
+  }
+  .pp9 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.32px;
+    color: #1e1e1e;
+    width: 826px;
+    height: 56px;
+    margin-top: 24px;
+  }
+  .btn6 {
+    width: 198px;
+    height: 56px;
+    left: 627px;
+    top: 3858px;
+    background: #2e4fd7;
+    border-radius: 1px;
+    color: #ffffff;
+    margin-top: 61px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+    color: #ffffff;
+  }
+  .line2 {
+    width: 1110px;
+    height: 2px;
+    background-color: #b4b4b4;
+    margin-top: 43px;
+  }
+  .logo6 {
+    width: 942px;
+    height: 43.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .philips {
+    height: 19px;
+    width: 103.84912872314453px;
+    margin-bottom: 13.38px;
+  }
+  .logitech {
+    height: 37px;
+    width: 125.14737701416016px;
+    margin-bottom: 1px;
+  }
+  .amazon {
+    height: 31.572595596313477px;
+    width: 160.61949157714844px;
+    margin-bottom: 0.37px;
+  }
+  .fb1 {
+    height: 27.774250030517578px;
+    width: 141.59283447265625px;
+    margin-bottom: 13.31px;
+  }
+  .google1 {
+    height: 39.94620132446289px;
+    width: 124.1808090209961px;
+    margin-bottom: 2.55px;
+  }
+  .linked {
+    height: 35.84836196899414px;
+    width: 141.7918701171875px;
+    margin-bottom: 7.4px;
+  }
+  @media (min-width: 401px) {
+    .mobile-only {
+      display: none !important;
+    }
+  }
+  @media (max-width: 400px) {
+    .desktop-only {
+      display: none !important;
+    }
+    .container6 {
+        width: 100%;
+        margin: 0;
+        width: 400px;
+        height: 450px;
+      }
+      .pp8 {
+        margin: 0;
+        font-size: 31px;
+        line-height: 31px;
+        width: 380px;
+        height: 100px;
+      }
+      .pp9 {
+        margin: 0;
+        width: 400px;
+        font-size: 12px;
+        line-height: 22px;
+        height: 80px;
+      }
+      .btn6 {
+        margin: 0;
+        height: 40px;
+        width: 160px;
+      }
+      .line2 {
+        width: 300px;
+      }
+      .logo6 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 300px;
+        margin-top: 25px;
+      }
+      .philips {
+        margin: 0;
+        width: 80px;
+      }
+      .logitech {
+        margin: 0;
+        width: 80px;
+      }
+      .amazon {
+        margin: 0;
+        width: 80px;
+      }
+      .fb1 {
+        margin: 0;
+        width: 80px;
+      }
+      .google1 {
+        margin: 0;
+        width: 80px;
+      }
+      .linked {
+        margin: 0;
+        width: 80px;
+      }
+    }
